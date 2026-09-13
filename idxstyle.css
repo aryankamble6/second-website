@@ -1,0 +1,91 @@
+.navbar{
+    height: 100px;
+    margin: auto;
+    padding: 8px;
+    border: 1px solid black;
+    position: sticky;
+    top: 0px;
+    backdrop-filter: blur(3px);
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    background-color: lightgray;
+}
+
+.navname{
+    width: 30%;
+    display: flex;
+    justify-content: left;
+    img{
+        width: 120px;
+        height: 90px;
+        border-radius: 8px;
+        padding: 4px;
+    }
+}
+
+.navmenu{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    a{
+        font-size: 20px;
+    }
+    ul{
+        padding: 0px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+    }
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    margin-block: 18px;
+}
+
+.hero{
+    height: 250px;
+    padding-top: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    border-radius: 8px;
+    background: radial-gradient(rgba(255, 255, 255, 0.683), rgba(173, 216, 230, 0.836));
+    text-align: center;
+}
+
+.about-us{
+    height: 540px;
+    margin-block: 18px;
+    padding: 18px;
+    border: 1px solid salmon;
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-start;
+    background-image: url("https://i.pinimg.com/736x/e6/e3/57/e6e357bd51fe5d25b266af71237995e1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.about-text{
+    width: 35%;
+    background-color: rgba(211, 211, 211, 0.648);
+    text-align: center;
+    padding: 8px;
+    border-radius: 8px;
+    transition: 0.4s;
+    h3{
+        font-size: 24px;
+    }
+    p{
+        font-size: 18px;
+    }
+}
+.about-text:hover{
+    background-color: rgba(211, 211, 211, 0.87);
+    transform: scale(1.04);
+}
