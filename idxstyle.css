@@ -2,7 +2,7 @@
     height: 100px;
     margin: auto;
     padding: 8px;
-    border: 1px solid black;
+    /* border: 1px solid black;  */
     position: sticky;
     top: 0px;
     backdrop-filter: blur(3px);
@@ -22,6 +22,10 @@
         border-radius: 8px;
         padding: 4px;
     }
+    a{
+        color: black;
+        text-decoration: none;
+    }
 }
 
 .navmenu{
@@ -30,6 +34,8 @@
     align-items: center;
     a{
         font-size: 20px;
+        color: black;
+        text-decoration: none;
     }
     ul{
         padding: 0px;
@@ -45,6 +51,7 @@
     width: 90%;
     margin: auto;
     margin-block: 18px;
+    /* border: 1px solid black; */
 }
 
 .hero{
@@ -62,7 +69,7 @@
     height: 540px;
     margin-block: 18px;
     padding: 18px;
-    border: 1px solid salmon;
+    /* border: 1px solid salmon; */
     border-radius: 8px;
     display: flex;
     justify-content: flex-start;
@@ -88,4 +95,222 @@
 .about-text:hover{
     background-color: rgba(211, 211, 211, 0.87);
     transform: scale(1.04);
+}
+
+.cars{
+    height: 1500px;
+    padding: 18px;
+    margin-block: 18px;
+    text-align: center;
+    border-radius: 12px;
+    background-color: rgb(142, 141, 141);
+    h1{
+        font-size: 35px;
+    }
+    h3{
+        font-size: 22px;
+    }
+}
+
+.bmw{
+    padding: 12px;
+    margin: auto;
+    margin-block: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+        font-size: 35px;
+        color: white;
+        font-weight: 700px;
+    }
+    img{
+        margin: auto;
+        width: 50%;
+        height: 20%;
+        border-radius: 28px;
+    }
+    h3{
+        font-size: 28px;
+        color: white;
+    }
+    a{
+        font-size: 25px;
+        color: black;
+        text-decoration: none;
+    }
+}
+
+.bmw-hero{
+    height: 800px;
+    /* border: 1px soild red; */
+    padding: 12px;
+    margin-block: 18px;
+    margin: auto;
+    border-radius: 12px;
+    text-align: center;
+    justify-content: center;
+    background-image: url("images/bmw/bmw_front.jpg");
+    background-position: center;
+    
+    h1{
+        font-weight: bold;
+        font-size: 35px;
+        color: white;
+    }
+    h5{
+        font-style: oblique;
+        font-size: 27px;
+        color: white;
+    }
+}
+
+.bmw-explore{
+    border-radius: 12px;
+    /* margin-block: 18px; */
+    padding: 30px 20px;
+    margin-top: 18px;
+}
+
+.explore-title{
+    text-align: center;
+    margin-bottom: 30px;
+    h1{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    h5{
+        font-size: 20px;
+    }
+}
+
+.bmw-galary{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+    flex-wrap: wrap;
+    transition: 0.4s;
+}
+
+.bmw-card{
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(5, 5, 5, 0.587);
+    img{
+        width: 280px;
+        height: 300px;
+        object-fit: fill;
+        border-radius: 10px;
+    }
+    h2{
+        font-size: 25px;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+.bmw-card img:hover{
+    transform: scale(1.1);
+}
+
+.bmw-performance{
+    height: 400px;
+    /* border: 1px solid saddlebrown; */
+    border-radius: 12px;
+    margin: auto;
+    padding: 12px;
+    margin-block: 18px;
+}
+
+.perf-title{
+    text-align: center;
+    padding-bottom: 12px;
+    animation: titleReval linear both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 40%;
+}
+
+@keyframes titleReval{
+    from{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.perf-container{
+    /* border: 1px solid green; */
+    border-radius: 12px;
+    padding: 18px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.perf-card{
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    transition: 0.4s;
+    h2{
+        font-size: 28px;
+    }
+    h5{
+        font-size: 18px;
+    }
+}
+
+.perf-card:hover{
+    transform: translateY(-10px);
+}
+
+.desp{
+    /* border: 1px solid red; */
+    height: 250px;
+    border-radius: 12px;
+    padding: 18px;
+    margin: auto;
+    margin-block: 18px;
+    text-align: center;
+    h2{
+        font-size: 28px;
+        font-weight: 800;
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+    p{
+        margin-top: 28px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif
+    }
+    h5{
+        margin-top: 28px;
+        font-size: 20px;
+    }
+}
+
+.return{
+    align-items: center;
+    text-align: center;
+    margin-block: 18px;
+    padding-bottom: 20px;
+    a{
+        font-size: 24px;
+        color: black;
+        text-decoration: none;
+    }
+}
+
+.bmw-page{
+    background: linear-gradient(rgba(255, 255, 255, 0.587), rgba(211, 211, 211, 0.628))
 }
