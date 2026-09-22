@@ -119,6 +119,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: 0.4s;
+    box-shadow: 0, 5px, 15px, rgba(74, 72, 72, 0.562);
     h1{
         font-size: 35px;
         color: white;
@@ -139,6 +141,10 @@
         color: black;
         text-decoration: none;
     }
+}
+
+.bmw img:hover{
+    transform: scale(1.06);
 }
 
 .bmw-hero{
@@ -217,7 +223,6 @@
 
 .bmw-performance{
     height: 400px;
-    /* border: 1px solid saddlebrown; */
     border-radius: 12px;
     margin: auto;
     padding: 12px;
@@ -244,7 +249,6 @@
 }
 
 .perf-container{
-    /* border: 1px solid green; */
     border-radius: 12px;
     padding: 18px;
     margin: auto;
@@ -276,7 +280,6 @@
 }
 
 .desp{
-    /* border: 1px solid red; */
     height: 250px;
     border-radius: 12px;
     padding: 18px;
@@ -314,3 +317,76 @@
 .bmw-page{
     background: linear-gradient(rgba(255, 255, 255, 0.587), rgba(211, 211, 211, 0.628))
 }
+
+.car-cards{
+    border-radius: 12px;
+    margin-block: 18px;
+    padding: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    h1{
+        font-size: 35px;
+        font-weight: 800;
+    }
+    h3{
+        font-size: 30px;
+    }
+    a{
+        font-size: 25px;
+        color: black;
+        text-decoration: none;
+        padding: 15px;
+    }
+}
+
+.porsche{
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.4s ease;
+    img{
+        margin: auto;
+        width: 320px;
+        height: 300px;
+        padding: 20px;
+        border-radius: 30px;
+    }
+}
+
+.mercedes{
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.4s ease;
+    img{
+        margin: auto;
+        width: 320px;
+        height: 300px;
+        padding: 20px;
+        border-radius: 30px;
+    }
+}
+
+.audi{
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.4s ease;
+    img{
+        margin: auto;
+        width: 320px;
+        height: 300px;
+        padding: 20px;
+        border-radius: 30px;
+    }
+}
+
+.audi img:hover,
+.mercedes img:hover,
+.porsche img:hover{
+    transform: scale(1.08) translateY(-8px);
+}
+
