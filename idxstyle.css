@@ -305,7 +305,7 @@
 .return{
     align-items: center;
     text-align: center;
-    margin-block: 18px;
+    margin-bottom: 18px;
     padding-bottom: 20px;
     a{
         font-size: 24px;
@@ -314,7 +314,7 @@
     }
 }
 
-.bmw-page{
+.cars-page{
     background: linear-gradient(rgba(255, 255, 255, 0.587), rgba(211, 211, 211, 0.628))
 }
 
@@ -390,3 +390,61 @@
     transform: scale(1.08) translateY(-8px);
 }
 
+.porsche-hero{
+    height: 800px;
+    border-radius: 12px;
+    padding: 14px;
+    margin-block: 18px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    background-image: url("images/porsche/911-background.jpg");
+    background-position: center;
+    background-size: cover;
+    h1{
+        font-weight: bolder;
+        font-size: 38px;
+        color: white;
+    }
+    h5{
+        font-size: 27px;
+    }
+}
+
+.porsche-explore{
+    border-radius: 10px;
+    padding: 14px;
+    margin: auto;
+}
+
+.porsche-gallary{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 25px;
+    transition: 0.4s;
+}
+
+.porsche-card{
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(5, 5, 5, 0.587);
+    img{
+        width: 280px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    h2{
+        font-size: 25px;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+.porsche-card img:hover{
+    transform: scale(1.1);
+}
