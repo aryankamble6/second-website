@@ -280,7 +280,7 @@
 }
 
 .desp{
-    height: 250px;
+    height: 220px;
     border-radius: 12px;
     padding: 18px;
     margin: auto;
@@ -447,4 +447,70 @@
 
 .porsche-card img:hover{
     transform: scale(1.1);
+}
+
+.amg-hero{
+    height: 800px;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 14px;
+    margin: auto;
+    margin-block: 18px;
+    align-items: center;
+    text-align: center;
+    background-image: url("images/mercedes/amg-background.jpg");
+    background-size: cover;
+    background-position: center;
+    h1{
+        font-weight: 800;
+        font-size: 38px;
+    }
+    h5{
+        font-size: 27px;
+    }
+}
+
+.mercedes-explore{
+    border-radius: 12px;
+    padding: 14px;
+    margin: auto;
+}
+
+.mercedes-gallary{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 25px;
+    transition: 0.4s;
+}
+
+.mercedes-card{
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(5, 5, 5, 0.587);
+    img{
+        width: 280px;
+        height: 300px;
+        border-radius: 10px;
+    }
+    h2{
+        font-size: 25px;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+.mercedes-card img:hover{
+    transform: scale(1.1);
+}
+
+.mercedes-performance{
+    height: 400px;
+    padding: 12px;
+    margin: auto;
+    border-radius: 12px;
+    margin-block: 18px;
 }
