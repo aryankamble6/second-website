@@ -449,6 +449,14 @@
     transform: scale(1.1);
 }
 
+.porsche-performance{
+    height: 370px;
+    padding: 12px;
+    margin: auto;
+    border-radius: 12px;
+    margin-block: 18px;
+}
+
 .amg-hero{
     height: 800px;
     border: 1px solid black;
@@ -508,7 +516,7 @@
 }
 
 .mercedes-performance{
-    height: 400px;
+    height: 370px;
     padding: 12px;
     margin: auto;
     border-radius: 12px;
